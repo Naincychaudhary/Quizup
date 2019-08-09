@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rcew.application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".linuxresult"></activity>
+        <activity android:name=".dsaresult" />
+        <activity android:name=".javaresult" />
+        <activity android:name=".dbmsresult" />
+        <activity android:name=".anslinux" />
+        <activity android:name=".ansjava" />
+        <activity android:name=".ansdbms" />
+        <activity android:name=".ansdsa" />
+        <activity android:name=".finall" />
+        <activity android:name=".model" />
+        <activity android:name=".subj" />
+        <activity android:name=".guideline" />
+        <activity android:name=".registeer" />
+        <activity android:name=".admin" />
+        <activity android:name=".userlogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
